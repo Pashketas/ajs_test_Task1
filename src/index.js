@@ -10,3 +10,8 @@ export default function showCondition(character) {
   result = 'critical';
   return result;
 }
+
+export function sortCharacters(characters) {
+  characters.sort((a, b) => (a.health < b.health ? 1 : -1));
+  return characters;
+}
