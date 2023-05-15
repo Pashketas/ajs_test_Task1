@@ -1,4 +1,4 @@
-import { sortCharacters } from '../index';
+import { sortCharacters } from '../index.js';
 
 test('should compare arrays', () => {
   const expected = [
