@@ -1,4 +1,4 @@
-import showCondition from '../index';
+import showCondition from '../index.js';
 
 test.each([
   [{ name: 'мечник', health: 10 }, 'critical'],
